@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>3D Load Indicator</title>
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  
-      <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 body {
   font-family: Oswald;
   background: #000;
@@ -572,60 +560,3 @@ body #loading #hold figure.c36 span {
     transform: rotateY(360deg);
   }
 }
-
-    </style>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
-</head>
-
-<body>
-
-  
-<div  id='loading'>
-  <label>LOADING</label>
-  <div id='hold'>
-    <figure class='c1'><span>&middot;</span></figure>
-    <figure class='c2'><span>&middot;</span></figure>
-    <figure class='c3'><span>&middot;</span></figure>
-    <figure class='c4'><span>&middot;</span></figure>
-    <figure class='c5'><span>&middot;</span></figure>
-    <figure class='c6'><span>&middot;</span></figure>
-    <figure class='c7'><span>&middot;</span></figure>
-    <figure class='c8'><span>&middot;</span></figure>
-    <figure class='c9'><span>&middot;</span></figure>
-    <figure class='c10'><span>&middot;</span></figure>
-    <figure class='c11'><span>&middot;</span></figure>
-    <figure class='c12'><span>&middot;</span></figure>
-    <figure class='c13'><span>&middot;</span></figure>
-    <figure class='c14'><span>&middot;</span></figure>
-    <figure class='c15'><span>&middot;</span></figure>
-    <figure class='c16'><span>&middot;</span></figure>
-    <figure class='c17'><span>&middot;</span></figure>
-    <figure class='c18'><span>&middot;</span></figure>
-    <figure class='c19'><span>&middot;</span></figure>
-    <figure class='c20'><span>&middot;</span></figure>   <figure class='c21'><span>&middot;</span></figure>
-    <figure class='c22'><span>&middot;</span></figure>
-    <figure class='c23'><span>&middot;</span></figure>
-    <figure class='c24'><span>&middot;</span></figure>
-    <figure class='c25'><span>&middot;</span></figure>
-    <figure class='c26'><span>&middot;</span></figure>
-    <figure class='c27'><span>&middot;</span></figure>
-    <figure class='c28'><span>&middot;</span></figure>
-    <figure class='c29'><span>&middot;</span></figure>
-    <figure class='c30'><span>&middot;</span></figure>
-    <figure class='c31'><span>&middot;</span></figure>
-    <figure class='c32'><span>&middot;</span></figure>
-    <figure class='c33'><span>&middot;</span></figure>
-    <figure class='c34'><span>&middot;</span></figure>
-    <figure class='c35'><span>&middot;</span></figure>
-    <figure class='c36'><span>&middot;</span></figure>
-  </div>
-</div>
-  <script src='https://dl.dropbox.com/u/70057/codepen.badge.js'></script>
-
-  
-
-</body>
-
-</html>
